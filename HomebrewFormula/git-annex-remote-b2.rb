@@ -4,6 +4,7 @@ class GitAnnexRemoteB2 < Formula
   desc "git-annex special remote for Backblaze's B2"
   homepage "https://github.com/encryptio/git-annex-remote-b2"
   head "https://github.com/encryptio/git-annex-remote-b2.git"
+  revision 1
 
   depends_on "go" => :build
   depends_on "git-annex"
