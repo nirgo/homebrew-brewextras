@@ -3,8 +3,7 @@ require "language/go"
 class GitAnnexRemoteB2 < Formula
   desc "git-annex special remote for Backblaze's B2"
   homepage "https://github.com/encryptio/git-annex-remote-b2"
-  head "https://github.com/encryptio/git-annex-remote-b2.git"
-  revision 1
+  head "https://github.com/encryptio/git-annex-remote-b2.git", :revision => "55fa4ba40391d8d9f1ca1390da7864d0329ded5d"
 
   depends_on "go" => :build
   depends_on "git-annex"
